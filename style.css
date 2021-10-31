@@ -1,0 +1,394 @@
+body {
+  font-family: 'Zen Antique', serif;
+
+}
+
+.photo-header-background {
+  width: fit-content;
+  padding-top: 650px;
+  padding-left: 1000px;
+  border: 1px solid #000000;
+  margin-top: -8px;
+  margin-left: -8px;
+  background-image: url(../img/header-background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.header-addreds-one {
+  margin-top: -500px;
+  font-size: 50px;
+  margin-left: 100px;
+  color: #edf8f2;
+  font-family: 'Irish Grover', cursive;
+
+}
+
+.header-addreds-two {
+  margin-left: 100px;
+  margin-top: -25px;
+  font-size: 45px;
+  color: #E1E1E1;
+  font-family: 'Libre Baskerville', serif;
+
+
+}
+
+.header-addreds-three {
+  margin-top: -20px;
+  margin-left: 100px;
+  color: #FF3A00;
+
+}
+
+.button-watch-menu {
+
+  max-width: 150px;
+  max-height: 40px;
+  min-width: 150px;
+  min-height: 40px;
+  border: 2px solid #FF3A00;
+  border-radius: 25px;
+  background-color: #262932;
+  color: #FFFFFF;
+  margin-left: 100px;
+  margin-top: 30px;
+
+}
+
+.button-watch-menu:hover {
+  background-color: #FF3A00;
+}
+
+
+.background-color-logoname {
+  max-width: 200px;
+  max-height: 70px;
+  min-width: 200px;
+  min-height: 70px;
+  background-color: #1e2128;
+  margin-top: -400px;
+  margin-left: -8px;
+  border-radius: 0px 0px 50px 0px;
+}
+
+.logoname-one {
+  margin-top: -55px;
+  margin-left: 40px;
+  color: #edf8f2;
+  font-family: 'Irish Grover', cursive;
+
+}
+
+.logoname-two {
+
+  font-family: 'Irish Grover', cursive;
+  margin-top: -47px;
+  margin-left: 107px;
+  color: #FF3A00;
+
+}
+
+.logo {
+  width: 30px;
+  margin-top: -52px;
+  display: block;
+}
+
+.Facebook-logo {
+  width: 20px;
+  display: block;
+}
+
+.button-facebook {
+  background-color: #edf8f2;
+  border-style: none;
+  margin-left: 950px;
+  margin-top: 230px;
+    
+
+}
+
+.location-logo {
+  width: 20px;
+  display: block;
+}
+
+.button-location {
+  background-color: #edf8f2;
+  border-style: none;
+  margin-left: 950px;
+  margin-top: 30px;
+}
+
+.phone-logo {
+  width: 20px;
+  display: block;
+}
+
+
+
+.button-phone {
+  background-color: #edf8f2;
+  border-style: none;
+  margin-left: 950px;
+  margin-top: 30px;
+}
+
+.delivery-menu {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 25px;
+  margin-top: 350px;
+  margin-left: 320px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 20px 50px #00000029;
+  border-style: none;
+  display: block;
+  font-family: 'Libre Baskerville', serif;
+
+
+}
+
+.delivery-logo-img {
+
+  width: 60px;
+  margin-top: -50px;
+}
+
+.delivery-menu:hover {
+
+  background-color: #FF3A00;
+  color: #FFFFFF;
+}
+
+
+.phone-menu {
+  max-width: 200px;
+  max-height:200px;
+  min-width: 200px;
+  min-height: 200px;
+  border-style:none;
+  box-shadow: 0px 20px 50px #00000029;
+border-radius: 25px;
+margin-left: 100px;
+background-color: #FFFFFF;
+margin-top: -100px;
+display: block;
+  font-family: 'Libre Baskerville', serif;   
+}
+
+
+.phone-logo-img {
+  width: 80px;
+  margin-top: -50px;
+}
+
+.phone-menu:hover {
+    background-color: #FF3A00;
+    color: #FFFFFF;
+}
+
+
+.menu-logo-img {
+  width: 60px;
+  margin-top: -50px;
+}
+.menu {
+    max-width: 200px;
+    max-height:200px;
+    min-width: 200px;
+    min-height: 200px;
+    border-style:none;
+    box-shadow: 0px 20px 50px #00000029;
+    border-radius: 25px;
+    margin-left: 320px;
+    background-color: #FFFFFF;
+    margin-top: -80px;
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+    display: block;
+}
+ 
+
+.menu:hover {
+     background-color: #FF3A00;
+     color: #FFFFFF;
+}
+
+.location-menu{
+    max-width: 200px;
+    max-height:200px;
+    min-width: 200px;
+    min-height: 200px;
+    border-style:none;
+    box-shadow: 0px 20px 50px #00000029;
+    border-radius: 25px;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    margin-top: -100px;
+    font-family: 'Libre Baskerville', serif;
+    display: block;
+
+}
+
+.location-logo-img {
+  width: 80px;
+  margin-top: -50px;
+}
+ 
+
+.location-menu:hover {
+     background-color: #FF3A00;
+     color: #FFFFFF;
+}
+
+
+.delivery-data {
+  text-align: center;
+  margin-top: -500px;
+  margin-left: 500px;
+  display: block;
+  font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.delivery-button-data {
+  
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  max-height: 30px;
+  border-radius: 25px;
+  border:1px solid #FF3A00;
+  margin-left:-100px;
+  background-color: #FFFFFF;
+}
+
+.delivery-button-data:hover {
+  background-color: #FF3A00;
+  color:#FFFFFF;
+}
+
+.para-delivery-data {
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+
+.delivery-data-address {
+  color: #FF3A00;
+}
+
+.menu-data {
+  
+  text-align: center;
+  margin-top: -252px;
+  margin-left: 500px;
+  font-size: 25px;
+  font-family: 'Libre Baskerville',
+  serif;
+  display: block;
+}
+
+.menu-button-data {
+
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  max-height: 30px;
+  border-radius: 25px;
+  border: 1px solid #FF3A00;
+  margin-left: -100px;
+  background-color: #FFFFFF;
+}
+
+
+.menu-button-data:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+}
+
+.menu-data-address {
+  color: #FF3A00;
+}
+
+
+.location-data {
+
+  text-align: center;
+  margin-top: -252px;
+  margin-left: 500px;
+  display: block;
+  font-size: 25px;
+  font-family: 'Libre Baskerville',
+  serif;
+  
+}
+
+.location-button-data {
+
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  max-height: 30px;
+  border-radius: 25px;
+  border: 1px solid #FF3A00;
+  margin-left: -100px;
+  background-color: #FFFFFF;
+}
+
+.location-button-data:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+}
+
+.location-data-address {
+  color: #FF3A00;
+}
+
+
+
+.phone-data  {
+  text-align: center;
+  margin-top: -252px;
+  margin-left: 500px;
+  display: block;
+  font-size: 25px;
+  font-family: 'Libre Baskerville',
+  serif;
+}
+
+.phone-button-data {
+
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  max-height: 30px;
+  border-radius: 25px;
+  border: 1px solid #FF3A00;
+  margin-left: -100px;
+  background-color: #FFFFFF;
+}
+
+.phone-button-data:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+}
+
+.phone-data-address {
+  color: #FF3A00;
+}
+
+.isHidden {
+  visibility: hidden;
+}
+
+.active{
+    visibility: visible
+}

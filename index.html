@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dreem Food</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.js" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--photo header background-->
+  <div class="photo-header-background">
+  </div>
+  <h1 class="header-addreds-one">Are you hungry? </h1>
+  <h1 class="header-addreds-two">Don't wait!</h1>
+  <h3 class="header-addreds-three">let's start watch the menu now</h3>
+  
+  <button class="button-watch-menu" type="button">Watch menu
+  </button>
+  
+  <div class="background-color-logoname"></div>
+  <h2 class="logoname-one">Dream</h2>
+  <h2 class="logoname-two">Food</h2>
+  <img class="logo" src="img/logo.png" alt="logo" />
+  <button class="button-facebook" type="button"> <img class="Facebook-logo" src="img/facebook-logo.png" alt="" /></button>
+  
+  
+  <button class="button-location" type="button">
+    <img class="location-logo" src="img/location.png" alt="logo location" />
+  </button>
+  
+  
+  <button class="button-phone" type="button">
+    <img class="phone-logo" src="img/phone.png" alt="phone logo" />
+  </button>
+  
+  
+  
+  <button 
+  id="delivery" 
+  onclick="imgClicked(this, 'delivery')" class="delivery-menu" type="button">
+    <img class="delivery-logo-img" src="img/delivery-logo.png" alt="delivery logo" />
+    <h1>Delivery</h1>
+  </button>
+  
+  
+  <button  
+  id="phone" 
+  onclick="imgClicked(this, 'phone')" class="phone-menu" type="button">
+    <img class="phone-logo-img" src="img/phone-logo.png" alt="phone logo" />
+    <h1>Phone</h1>
+  </button> 
+  
+  
+  <button 
+  id="menu" 
+  onclick="imgClicked(this, 'menu')" class="menu" type="button">
+    <img class="menu-logo-img" src="img/menu-logo.png" alt="menu logo" />
+    <h1>Menu</h1>
+  </button> 
+  
+  
+  <button  
+  id="location" 
+  onclick="imgClicked(this, 'location')" class="location-menu" type="button">
+    <img class="location-logo-img" src="img/location-logo.png" alt="delivery logo" />
+    <h1>Location</h1>
+  </button>
+  
+  
+  
+  
+  <div id="delivery-a" class="isHidden delivery-data">
+    <h1 class="delivery-data-address"> Delivery</h1>
+    <p class="para-delivery-data">delivery ay kalam fe el7mam
+      <br /> bla bla bla sffhhy
+    </p>
+    <button class="delivery-button-data" type="button">More</button>
+  </div>
+  
+  
+  
+  <div id="phone-a" class="isHidden phone-data">
+    <h1 class="phone-data-address">Phone</h1>
+    <p class="para-phone-data">Phone ay kalam fe el7mam
+      <br /> bla bla bla sffhhy</p>
+    <button class="phone-button-data" type="button">More</button>
+  </div>
+  
+  
+  
+  <div id="menu-a" class="isHidden menu-data">
+    <h1 class="menu-data-address">Menu</h1>
+    <p class="para-menu-data">Menu ay kalam fe el7mam
+      <br /> bla bla bla sffhhy</p>
+    <button class="menu-button-data" type="button">More</button>
+  </div>
+  
+  
+  
+  <div id="location-a" class="isHidden location-data">
+    <h1 class="location-data-address">Location</h1>
+    <p class="para-location-data">location ay kalam fe el7mam
+      <br /> bla bla bla sffhhy</p>
+    <button class="location-button-data" type="button">More</button>
+  </div>
+  
+  
+  <script>
+    let locationn = document.getElementById('location')
+    let delivery = document.getElementById('delivery')
+    let menu = document.getElementById('menu')
+    let phone = document.getElementById('phone')
+
+
+
+    function imgClicked($event, divName) {
+
+      console.log("This is the event", $event);
+      console.log("This is the img name", divName);
+
+      let allButtons = document.querySelectorAll('.isHidden');
+
+      allButtons.forEach(element => {
+        element.classList.remove("active");
+      });
+
+      $event.className += " active";
+      
+let deliveryA = document.getElementById=('delivery-a');
+
+let phoneA = document.getElementById=('phone-a');
+
+let menuA = document.getElementById=('menu-a');
+
+let locationA = document.getElementById=('location-a');
+
+
+    /*if(divName === 'delivery'){
+      deliveryA.className += " active"
+      console.log('I am clicked from', divName);
+    }*/
+    
+    
+  /*if(divName === 'delivery'){
+    deliveryA.className += " active";
+
+    console.log('I am clicked from', divName);
+    console.log('class name is >>', deliveryA.className);
+
+  }*/
+  
+  
+
+  
+
+  if(divName === 'delivery'){
+
+    /*console.log('the div we reference >> ', deliveryA)
+    
+    console.log('the div we reference with classList >> ', deliveryA.classList)*/
+    
+    console.log('the div we reference >> ', deliveryA)
+    console.log('the div we reference and TypeOf >> ', typeof(deliveryA))
+    console.log('the div we reference with classList >> ', deliveryA.classList)
+    
+    if(deliveryA.classList.contains('active')){
+      deliveryA.classList.remove('active');
+
+    }else{
+      deliveryA.classList.add('active');
+      
+    }
+
+    /*console.log('I am clicked from', divName);
+    
+   
+    console.log('class name is >>', deliveryA.classList);
+
+  }*/
+
+    console.log('I am clicked from', divName);
+    console.log('class name is >>', deliveryA.classList);
+
+  }
+
+    if(divName === 'phone'){
+      phoneA.className += " active"
+      console.log('I am clicked from', divName);
+    }
+
+    if(divName === 'menu'){
+      menuA.className += " active"
+      console.log('I am clicked from', divName);
+    }
+
+    if(divName === 'location'){
+      locationA.className += " active"
+      console.log('I am clicked from', divName);
+    }
+
+
+    }
+  </script>
+</body>
+
+</html>
